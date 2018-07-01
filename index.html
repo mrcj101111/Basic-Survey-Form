@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<!--Title-->
+<h1 id="title">Survey Form</h1>
+
+<!--Survey form-->
+<form id="survey-form" method="GET" action="javascript:alert('Submitted')">
+  
+  <!--Form header-->
+  <h4 id="description">Self-taught developer</h4>
+  
+  <!--Name input-->
+  <div class="row">
+    <div class="col"><label for="First Name" id="field">Name:</label></div>
+    <div class="col"><input autofocus type="text" class="form-control" required id="name" placeholder="Enter your name"></div>
+  </div>
+    
+  <!--Email input-->
+<div class="row">
+    <div class="col"><label for="email" id="field">Email:</label></div>
+  <div class="col"><input autofocus type="email" class="form-control" id="email" placeholder="Enter your name" required></div>
+</div>
+  
+  <!--Age input-->
+<div class="row">
+    <div class="col"><label for="age" id="field">Age:</label></div>
+  <div class="col"><input autofocus type="number" class="form-control" id="number" placeholder="Enter your age" required min="1" max="150"></div>
+</div>
+  
+  <!--Role input-->
+  <div class="row">
+    <div class="col"><label for="role" id="field">What is your current role?</label></div>
+      <div class="col"><select class="form-control" id="dropdown">
+      <option>Only starting out</option>
+      <option>Still on the learning track</option>
+      <option>Applying for jobs</option>
+      <option>Got the job!</option>
+      <option>Got the job and continuing learning</option>
+    </select>
+    </div>
+  </div>
+    
+  <!--Languages input-->
+  <div class="row">
+    <div class="col"><label for="Language" id="field">What Lanuages do you use?</label></div>
+    <div class="col">
+      <div class="language">
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="html">
+  <label class="form-check-label" for="html">
+    html
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="css">
+  <label class="form-check-label" for="css">
+    css
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="JavaScript">
+  <label class="form-check-label" for="JavaScript">
+    JavaScript
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="C#">
+  <label class="form-check-label" for="C#">
+    C#
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="Python">
+  <label class="form-check-label" for="Python">
+    Python
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="Java">
+  <label class="form-check-label" for="Java">
+    Java
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="C++">
+  <label class="form-check-label" for="C++">
+    C++
+  </label>
+</div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="PHP">
+  <label class="form-check-label" for="PHP">
+    PHP
+  </label>
+        </div>
+</div>
+</div>
+  </div>
+      
+  <!--Textarea for comments-->
+      <div class="row">
+    <div class="col"><label for="comments" id="field">Any comments?</label></div>
+       <div class="col"><textarea rows=4 cols=30 placeholder="Comment here..." id="commentBox"></textarea>
+      </div> 
+    </div>
+  
+  <!--Button-->
+  <button type="submit" class="btn btn-secondary" id="submit">Submit</button>
+</form>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+</body>
+
+</html>

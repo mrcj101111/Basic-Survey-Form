@@ -1,0 +1,94 @@
+/**Adding body css**/
+body {
+  background-image: url("https://www.publicdomainpictures.net/pictures/70000/velka/background-papier-blanc-3.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Arvo', serif;
+}
+
+/**Survey form css**/
+#survey-form {
+  margin: auto auto 20px auto;
+  width: 800px;
+  height: auto;
+  background-color: #d6d6c2;
+  border-radius: 7px;
+  padding-bottom: 20px;
+}
+
+/*Header 4**/
+h4 {
+  padding: 25px 0px 25px 0px;
+}
+
+/*Left-hand side style*/
+#field {
+  text-align: right;
+  vertical-align: middle;
+  height: 30px;
+  line-height: 30px;
+  width: 300px;
+}
+
+/*right-hand side style*/
+#name {
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid grey;
+  height: 35px;
+  line-height: 30px;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: -50px;
+}
+
+#email {
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid grey;
+  height: 35px;
+  line-height: 30px;
+  width: 300px;
+  margin-left: -50px;
+  margin-bottom: 10px;
+}
+
+#number {
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid grey;
+  height: 35px;
+  line-height: 30px;
+  width: 300px;
+  margin-left: -50px;
+  margin-bottom: 10px;
+}
+
+#dropdown {
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid grey;
+  height: 35px;
+  line-height: 30px;
+  width: 300px;
+  margin-left: -50px;
+  margin-bottom: 10px;
+}
+
+.language {
+  text-align: left;
+  vertical-align: middle;
+  width: 300px;
+  margin-left: -50px;
+  margin-bottom: 10px;
+}
+
+#commentBox {
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid grey;
+  line-height: 30px;
+  margin-bottom: 10px;
+  margin-left: -190px;
+  border-radius: 4px;
+}
